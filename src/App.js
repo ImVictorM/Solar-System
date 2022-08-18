@@ -1,8 +1,11 @@
 import React from 'react';
-// pastel de uva
+import Header from './components/Header';
+
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <Header />
+    );
   }
 }
 
