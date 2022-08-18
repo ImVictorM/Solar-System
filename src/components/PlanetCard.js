@@ -6,7 +6,7 @@ class PlanetCard extends Component {
     const { planetName, planetImage } = this.props;
     const planetDescription = `Planeta ${planetName}`;
     return (
-      <div data-testid="planet-card">
+      <div data-testid="planet-card" className="planet-card">
         <p data-testid="planet-name">
           {planetName}
         </p>

@@ -10,9 +10,11 @@ class SolarSystem extends Component {
       return <PlanetCard key={ name } planetName={ name } planetImage={ image } />;
     });
     return (
-      <div data-testid="solar-system">
+      <div>
         <Title headline="Planetas" />
-        {planetList}
+        <div data-testid="solar-system" className="solar-system">
+          {planetList}
+        </div>
       </div>
     );
   }
