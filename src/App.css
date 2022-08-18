@@ -91,7 +91,7 @@ h2 {
   }
 }
 
-@media screen and ( max-width : 1200px ) and ( min-width : 721px ) {
+@media screen and ( max-width : 1200px ) {
 
   .solar-system {
     margin: 0 auto;
