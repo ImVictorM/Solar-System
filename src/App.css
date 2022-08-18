@@ -70,3 +70,31 @@ h2 {
 .description-container p {
   margin: 15px 0;
 }
+
+@media screen and ( max-width : 475px ) {
+
+  .mission-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mission-card {
+    width: 70vw;
+  }
+
+}
+
+@media screen and ( max-width : 720px )  and ( min-width : 476px ) {
+
+  .mission-card {
+    width: 30vw;
+  }
+}
+
+@media screen and ( max-width : 1200px ) and ( min-width : 721px ) {
+
+  .solar-system {
+    margin: 0 auto;
+    width: 80vw;
+  }
+}
