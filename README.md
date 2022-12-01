@@ -77,7 +77,7 @@ In this project, I was able to:
 
 ## Running the application
 
-1. Clone this repository and enter it
+1. Clone and enter this repository
 ```
 git clone git@github.com:ImVictorM/Solar-System.git && cd Solar-System
 ```
